@@ -1,5 +1,11 @@
 # Mavis AI Bagel Server
 This is the server component for the Mavis AI Bagel project.
+This server has been deployed on RunPod. Recommended configurations:  
+GPU: RTX 4000 Ada (20GB VRAM)  
+CPU: 9 cores  
+RAM: 39GB  
+Container template: runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu22.04  
+Depending on your fine-tuned model size, you may need to increase to 2 GPUs.
 
 ## Prerequisites
 - Python 3.x
@@ -14,6 +20,10 @@ Create and activate a virtual environment:
 Install the required packages:
    
    pip install -r requirements.txt
+
+Download the model:
+
+   python download_model.py
    
 Run the server:
    
