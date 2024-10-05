@@ -1,202 +1,111 @@
 export const CLINICAL_NOTE = `
-Admission Date: [xxxx-xx-xx] Discharge Date:  [xxxx-xx-xx]
+Admission Date: [XXXX-XX-XX] Discharge Date: [XXXX-XX-XX]
 
-Service: SURGERY
+Service: MEDICINE
 
-Allergies:
-Patient recorded as having No Known Allergies to Drugs
+Allergies: Patient reported allergy to Penicillin (rash)
 
-Attending:[XXXX XXXX]
-Chief Complaint:
-Mental Status changes status post fall
+Attending: [XXXX XXXX]
 
+Chief Complaint: Chest pain and shortness of breath
 
-Major Surgical or Invasive Procedure:
-IR guided PEG placement
+Major Surgical or Invasive Procedure: Coronary angiography with stent placement
 
+History of Present Illness: Pt is a 68-year-old man with a PMH of hypertension, type 2 diabetes mellitus, and hyperlipidemia who presented with acute onset chest pain and dyspnea.
 
-History of Present Illness:
-Pt is a 89yo man w a PMH of Alzheimer's who presents s/p
-unwitnessed fall with +LOC, unresponsiveon EMT arival, evaluated
-at OSH where a head CT showed SAH, decision was made to transfer
-the patient to [**Hospital1 18**], Hemodynamically stable throughout transfer
-and in the ED at [**Hospital1 18**]
+The patient was in his usual state of health until three days prior to admission when he began experiencing intermittent chest discomfort. The pain was described as a heavy pressure located substernally, radiating to his left arm, and associated with shortness of breath and diaphoresis. Initially, symptoms occurred during exertion but progressed to occur at rest. He denied any relief with antacids or rest.
 
+On the day of admission, the chest pain became more severe and unrelenting, lasting over 30 minutes, prompting his wife to call emergency services. Upon arrival to the ED, he continued to have chest pain rated 8/10 in intensity.
+
+In the ED, initial VS showed BP 160/90 mmHg, HR 95 bpm, RR 20, T 98.6°F, O2 Sat 94% RA. An EKG revealed ST-segment elevations in leads II, III, and aVF consistent with an inferior MI. Initial troponin I levels were elevated.
+
+He was given ASA 325 mg, SL nitroglycerin, and started on a heparin drip. He was emergently taken to the cardiac cath lab where a 95% occlusion of the RCA was found and successfully stented.
+
+Post-procedure, Pt reported resolution of chest pain. He was monitored in the CCU and started on guideline-directed medical therapy including beta-blockers, ACE inhibitors, statins, and dual antiplatelet therapy.
+
+He denies any recent travel, sick contacts, or exposure to COVID-19. He reports adherence to his medications but admits to dietary indiscretions and a sedentary lifestyle.
 
 Past Medical History:
-Alzheimers Disease
-HTN
-Hypercholesterolemia
-depression
-BPH
-s/p TURP
-Hard of Hearing
-Bilateral cataracts
 
-
+Hypertension
+Type 2 Diabetes Mellitus
+Hyperlipidemia
+Gastroesophageal Reflux Disease
+Appendectomy at age 20
 Social History:
-EtOH neg
-Tob neg
 
+Smoking: Former smoker; quit 5 years ago after a 30 pack-year history
+Alcohol: Occasional wine with dinner
+Illicit Drugs: Denies any use
+Occupation: Retired accountant
+Marital Status: Married, lives with wife
+Family History:
 
-Physical Exam:
-On admission:
-VS: 97.4 90 176/75 18 97% RA
-Gen: slightly aggitated
-HEENT: c-collar on, R forehead laceration, PERRL,EOMI
-Chest: CTAB
-CVS:RRR
-Abd: soft, NT/ND
-Ext: multiple ecchymosis, no edema,pulses +2 throughout
-Neuro: alert,unable to follow commands, MAE
+Father passed away at age 70 from myocardial infarction
+Mother alive, history of osteoporosis
+No known family history of cancer or stroke
+Physical Exam: On admission: VS: BP 130/80 mmHg, HR 75 bpm, RR 16 bpm, T 98.6°F, O2 Sat 98% RA Gen: Alert and oriented, resting comfortably in bed HEENT: NCAT, PERRLA, EOMI Neck: Supple, no JVD, no carotid bruits Chest: CTA bilaterally, no wheezes, rales, or rhonchi CVS: Normal S1 and S2, no murmurs, rubs, or gallops Abd: Soft, NT/ND, BS present Ext: No edema, pulses 2+ bilaterally Skin: Warm and dry, no rashes or lesions Neuro: CN II-XII intact, motor and sensory functions normal, reflexes 2+ throughout
 
+Pertinent Results: [XXXX-XX-XX] EKG: ST-segment elevations in leads II, III, and aVF consistent with inferior MI [XXXX-XX-XX] Troponin I: Elevated [XXXX-XX-XX] CK-MB: Elevated Basic Metabolic Panel:
 
-Pertinent Results:
-[xxxx-xx-xx] CT HEAD WITHOUT IV CONTRAST: A focal area of increased
-density is seen within the right temporoparietal sulci,
-consistent with a focus of subarachnoid hemorrhage. No other
-foci of subarachnoid hemorrhage are seen. No subdural or
-intraparenchymal hemorrhages identified. The ventricles and
-sulci are prominent, consistent with age-related atrophic
-change. There is decreased attenuation in the periventricular
-white matter, consistent with changes relating to chronic small
-vessel ischemic infarct. There is extensive calcification of the
-carotid arteries bilaterally. The basilar artery appears
-tortuous. The soft tissue and osseous structures are within
-normal limits.
-IMPRESSION: Subarachnoid hemorrhage in the right temporoparietal
-region.
+Glucose: [value]
+BUN: [value]
+Creatinine: [value]
+Na: [value]
+K: [value]
+Cl: [value]
+HCO3: [value] CBC:
+WBC: [value]
+Hgb: [value]
+Hct: [value]
+Platelets: [value] Lipids:
+LDL: [value]
+HDL: [value]
+Triglycerides: [value]
+Brief Hospital Course: Pt had an uncomplicated post-procedure course. He participated in cardiac rehabilitation sessions and was educated on lifestyle modifications, including diet and exercise. Diabetes management was optimized with adjustments to his medications. He was seen by a nutritionist and received counseling on smoking cessation reinforcement, despite being a former smoker.
 
-
-Speech and Swallow eval [xxxx-xx-xx]
-SUMMARY / IMPRESSION:
-The pt did not appear aware of food in his mouth and is not
-responding to feeding utensils or food in his mouth. He is not
-safe to try to feed and PEG placement is recommended as an
-alternate route for nutrition/hydration/medication.
-
-
-RECOMMENDATIONS:
-1.Pt should remain strictly NPO with PEG placement recommended
- for nutrition/hydration/meds
-
-
-2.Pt should receive rigorous oral care
-
-
-[xxxx-xx-xx] 07:20AM BLOOD WBC-7.3 RBC-3.93* Hgb-12.1* Hct-35.1*
-MCV-89 MCH-30.8 MCHC-34.4 RDW-13.6 Plt Ct-380
-[xxxx-xx-xx] 01:06AM BLOOD WBC-9.8 RBC-3.70* Hgb-11.4* Hct-32.8*
-MCV-89 MCH-30.8 MCHC-34.7 RDW-13.3 Plt Ct-352
-[xxxx-xx-xx] 07:20AM BLOOD Glucose-94 UreaN-26* Creat-0.8 Na-141
-K-4.1 Cl-105 HCO3-25 AnGap-15
-[xxxx-xx-xx] 01:06AM BLOOD Glucose-102 UreaN-17 Creat-1.2 Na-127*
-K-4.5 Cl-94* HCO3-23 AnGap-15
-[xxxx-xx-xx] 01:06AM BLOOD CK(CPK)-110
-[xxxx-xx-xx] 01:06AM BLOOD CK-MB-4 cTropnT-0.01
-[xxxx-xx-xx] 07:20AM BLOOD Calcium-8.9 Phos-3.5 Mg-2.4
-[xxxx-xx-xx] 01:23PM BLOOD Albumin-3.6 Calcium-8.3* Phos-3.1 Mg-1.7
-[xxxx-xx-xx] 04:06AM BLOOD TSH-2.3
-[xxxx-xx-xx] 03:20AM URINE Blood-LG Nitrite-POS Protein-TR
-Glucose-NEG Ketone-NEG Bilirub-NEG Urobiln-NEG pH-6.5 Leuks-MOD
-[xxxx-xx-xx] 03:20AM URINE RBC-0 WBC-0 Bacteri-NONE Yeast-NONE
-Epi-0-2
-
-
-Brief Hospital Course:
-Pt was a trauma transfer from an OSH where he was found to have
-a Right tempoparietal SAH, on presentation he did not follow
-commands but otherwise had a non-focal neuro exam. Neurology
-and Neurosurgery were consulted regarding the patients MS change
-and management of his SAH, respectively. Neurology suggested
-and EEG which was read as inconsistent with seizure activity,
-making this an unlikely contributor to his MS change.
-Neurosurgery evaluated the SAH with serial head CTs which showed
-stable SAH and used Dilantin for prophylaxis. After running
-several test to further evaluate his dementia, the consensus
-among teams was that his changes in mental status were due to
-his SAH on top of his underlying dementia, the patient's mental
-status failed to improve and a speech and swallow eval revealed
-that he was unable to protect his airway with POs. The decision
-was then made to insert a PEG and tube feeds were started. On
-discharge the patient was afebrile, hemodynamically stable, and
-alert, but was still unable to follow commands and was at best
-oriented to self only.
-
+He remained hemodynamically stable throughout his hospital stay. Blood glucose levels were monitored and controlled. He tolerated medications well without adverse effects.
 
 Medications on Admission:
-Zestril
-Flomax
-Aricept
-Liptior
-Lexapro
-Namenda
 
-
+Lisinopril
+Metformin
+Atorvastatin
+Pantoprazole
 Discharge Medications:
-1. Ipratropium Bromide 0.02 % Solution Sig: One (1) Inhalation
-Q6H (every 6 hours) as needed.
-2. Albuterol Sulfate 0.083 % Solution Sig: One (1) Inhalation
-Q6H (every 6 hours) as needed.
-3. Heparin Sodium (Porcine) 5,000 unit/mL Solution Sig: One (1)
-Injection TID (3 times a day).
-4. Donepezil 10 mg Tablet Sig: One (1) Tablet PO HS (at
-bedtime).
-5. Atorvastatin Calcium 10 mg Tablet Sig: One (1) Tablet PO HS
-(at bedtime).
-6. Memantine 5 mg Tablet Sig: Two (2) Tablet PO bid ().
-7. Folic Acid 1 mg Tablet Sig: One (1) Tablet PO DAILY (Daily).
 
-
-8. Metoprolol Tartrate 50 mg Tablet Sig: 1.5 Tablets PO BID (2
-times a day).
-9. Docusate Sodium 150 mg/15 mL Liquid Sig: 10ml PO BID (2
-times a day).
-10. Acetaminophen 650 mg Suppository Sig: One (1) Suppository
-Rectal Q4-6H (every 4 to 6 hours) as needed for pain/fever.
-11. Haloperidol 1 mg Tablet Sig: Two (2) Tablet PO BID (2 times
-a day) as needed.
-12. Trazodone 50 mg Tablet Sig: One (1) Tablet PO HS (at
-bedtime).
-13. Insulin Regular Human 100 unit/mL Solution Sig: Sliding
-Scale Injection ASDIR (AS DIRECTED): 0-70  mg/dL [**1-6**] amp D50;
-71-120  mg/dL 0  Units;
-121-160  mg/dL 3  Units;
-161-200  mg/dL 6  Units;
-
-.
-
-Discharge Disposition:
-Extended Care
-
+Aspirin 81 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)
+Clopidogrel 75 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)
+Metoprolol Succinate 50 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)
+Lisinopril 20 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)
+Atorvastatin 80 mg Tablet Sig: One (1) Tablet PO HS (at bedtime)
+Metformin 1000 mg Tablet Sig: One (1) Tablet PO BID (2 times a day)
+Nitroglycerin 0.4 mg Sublingual Tablet Sig: One (1) Tablet SL PRN chest pain
+Pantoprazole 40 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)
+Discharge Disposition: Home
 
 Discharge Diagnosis:
-Left parietal Subarachnoid Hemmorhage
-Dementia
 
-
-Discharge Condition:
-Stable
-
+Inferior ST-elevation Myocardial Infarction (MI)
+Coronary Artery Disease (CAD)
+Hypertension
+Type 2 Diabetes Mellitus
+Hyperlipidemia
+Discharge Condition: Stable
 
 Discharge Instructions:
-Take medications as perscribed, follow up as indicated. Return
-to the Emergency Department if you develop high fevers (>101.5),
-severe headache, Nausea, Vomiting, or other concerns.
 
+Take medications as prescribed.
+Follow a low-sodium, heart-healthy diet.
+Engage in regular physical activity as tolerated.
+Monitor blood pressure and blood glucose at home.
+Avoid smoking and limit alcohol consumption.
+Return to the Emergency Department if you develop chest pain, shortness of breath, palpitations, or any other concerning symptoms.
+Followup Instructions: Follow up with:
 
-Followup Instructions:
-Follow up with:
+Cardiologist: Call ([XXXX-XXXX]) for an appointment in 1 week. Primary Care Physician: Call ([XXXX-XXXX]) for an appointment in 2 weeks. Diabetes Educator: Call ([XXXX-XXXX]) for an appointment in 2 weeks.
 
+Attending Physician: Dr. [XXXX XXXX], MD
 
-Neurology: call ([**Telephone/Fax (1) 2528**] for an appointment in [**4-10**] weeks
-regarding the patient's dementia
-
-
-Neurosurgery: call ([**Telephone/Fax (1) 88**] for an appointment in 6 weeks,
-with Dr. [**Last Name (STitle) **] regarding the patient's intercranial bleed
-
-
-Trauma clinic: regarding removing the cervical collar call ([**Telephone/Fax (1) 4336**] for an appointment in 2 weeks or next available
-appointment
+Electronically Signed by: [XXXX XXXX] on [XXXX-XX-XX]
 `;

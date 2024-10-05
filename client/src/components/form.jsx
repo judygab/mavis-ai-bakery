@@ -82,7 +82,7 @@ export default function Form() {
           <Textarea
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter your clinical note here or press ⇧Shift to load a sample note ..."
+            placeholder="Enter your clinical note here or press ⇧Shift to load a sample synthetic clinical note ..."
             className="flex-grow mb-4 resize-none p-4 text-lg"
           />
           <Button
